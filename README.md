@@ -1,2 +1,2 @@
-# report-templet
-Latex report
+# report_template
+Template for writing a general lab report in LaTeX

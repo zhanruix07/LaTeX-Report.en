@@ -1,0 +1,59 @@
+\section{item}
+\label{item}
+\subsection{Table}
+\subsubsection{Tables side by side}
+\begin{minipage}[c]{0.5\textwidth}
+	\captionof{table}{Difference of Mild Steel}
+	\label{T 4.1}
+	\centering
+	\begin{tabular}{@{}ccc@{}}
+		\toprule
+		Loading & Difference & Difference rate \\ \midrule
+		50N     & 0.01906 mm & 16.5681$\%$     \\
+		100N    & 0.03803 mm & 16.5298$\%$     \\
+		150N    & 0.05709 mm & 16.5426$\%$     \\ \midrule
+		Average &            & 16.55$\%$           \\ \bottomrule
+	\end{tabular}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+	\captionof{table}{Difference of Alminium}
+	\label{T 4.2}
+	\centering
+	\begin{tabular}{@{}ccc@{}}
+		\toprule
+		Loading & Difference & Difference rate \\ \midrule
+		50N     & 0.03944 mm & 12.1856$\%$     \\
+		100N    & 0.07887 mm & 12.1839$\%$     \\
+		150N    & 0.11831 mm & 12.1845$\%$     \\ \midrule
+		Average &            & 12.18$\%$           \\ \bottomrule
+	\end{tabular}
+\end{minipage}
+
+\subsection{Picture}
+\subsubsection{title}
+
+
+
+
+
+
+
+\subsubsection{Pictures side by side}
+
+\textbf{Images side-by-side, each with its own subheading but sharing large headings and tags}
+
+ \begin{figure}
+	\centering
+	\subfloat[50N loading Mild Steel]{\includegraphics[width=9cm]{"Introduction/figures/Steel50"}}
+	\subfloat[100N loading Mild Steel]{\includegraphics[width=9cm]{"Introduction/figures/Steel100"}}
+	\\
+	\centering
+	\subfloat[150N loading Mild Steel]{\includegraphics[width=9cm]{"Introduction/figures/150Steel"}}
+	\subfloat[50N loading Aluminium]{\includegraphics[width=9cm]{"Introduction/figures/Al50"}}
+	\\
+	\centering
+	\subfloat[100N loading Aluminium]{\includegraphics[width=9cm]{"Introduction/figures/Al100"}}
+	\subfloat[150N loading Aluminium]{\includegraphics[width=9cm]{"Introduction/figures/Al150"}}
+	\caption{Results of experiments with Steel and Aluminium} %图片标题
+	\label{F 1.1}
+\end{figure}
