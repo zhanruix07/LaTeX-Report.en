@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.17)  21 NOV 2023 22:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.17)  21 NOV 2023 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,18 +1013,18 @@ LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 24.
 
-(./Introduction/introduction.tex
+(./1.Introduction/introduction.tex
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 1.
-) (./Mathematical_model/mathematical_model.tex) (./Results_and_discussion/resul
-ts.tex)
-(./Results_and_discussion/discussion.tex) (./Conclusion/conclusion.tex)
-[1
+)
+(./2.Mathematical_model/mathematical_model.tex) (./3.Discussion/discussion.tex)
+(./4.Results/results.tex) (./5.Conclusion/conclusion.tex) [1
 
 ] [2]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 4
 9.
- (c:/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
+
+(c:/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) [3]
 (./Example/Example.tex
@@ -1086,11 +1086,11 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: BF89B0ADA1E55C6740DD5EE22370F529;2745.
+(rerunfilecheck)             Checksum: 26C1B08A5F7E463099C9BE258C8CBC32;2745.
  ) 
 Here is how much of TeX's memory you used:
- 21639 strings out of 475160
- 416386 string characters out of 5770264
+ 21640 strings out of 475160
+ 416307 string characters out of 5770264
  1919674 words of memory out of 5000000
  43077 multiletter control sequences out of 15000+600000
  599419 words of font info for 122 fonts, out of 8000000 for 9000
